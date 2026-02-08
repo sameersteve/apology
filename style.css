@@ -44,3 +44,20 @@ h1 {
     transform: translateY(0);
   }
 }
+#playBtn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  color: #aaa;
+  border: 1px solid #444;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+#playBtn:hover {
+  color: #fff;
+  border-color: #666;
+}
