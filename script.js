@@ -32,3 +32,10 @@ function typeEffect() {
 }
 
 typeEffect();
+const btn = document.getElementById("playBtn");
+const music = document.getElementById("bgm");
+
+btn.addEventListener("click", () => {
+  music.play();
+  btn.innerText = "Music playing";
+});
